@@ -21,6 +21,12 @@
 // solution
 function correctPolishLetters (string) {
     let assorted = string.normalize('NFD').replace(/[\u0200-\u036f]/g, "")
-    
+//first begin with replacing/normalizing the initial string, since the l character is often ignored in this case, target it specifically and make the change as seen below    
+
     return assorted.replace(/\u0142/g, "l")
   }
+
+//   test 
+//   correctPolishLetters("Jędrzej Błądziński"),"Jedrzej Bladzinski");
+// correctPolishLetters("Lech Wałęsa"),"Lech Walesa");
+// correctPolishLetters("Maria Skłodowska-Curie"),"Maria Sklodowska-Curie");
