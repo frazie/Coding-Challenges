@@ -24,15 +24,10 @@
 // solutions
 function quadratic(x1, x2){
     // Answer in array
-      let x = 1
-      let array = [1]
-      for (let i=1;i<=x;i++){
-        array.push((x-x1)*(x-x2))
-      }
-      console.log(array) //the console log gives the sum of the roots rather than individual values
-    }
-
-
+    //   x^2 -x2*x -x1*x +x1*x2=0
+    // 1 =b x1*x2=c
+     return [1, -x1-x2,x1*x2]
+}
 // test 
 // quadratic(0,1), [1, -1, 0]);
 // quadratic(1,1), [1, -2, 1]);
