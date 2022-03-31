@@ -26,6 +26,10 @@ function toCsvText(array) {
      return array.join('\n')
   }
 
+  or 
+
+  array.join('\n')
+
 //   test 
 //   toCsvText([
 //     [ 0, 1, 2, 3, 45 ],
