@@ -18,7 +18,7 @@
 //   return a+b;
 // }
 // //Please refer to the example above to complete the following functions
-solution
+solutionzz
 function equal2(){
     var a=v4  //set number value to a
     var b=v2   //set number value to b
