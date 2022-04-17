@@ -27,9 +27,9 @@ function warnTheSheep(queue) {
     }
  }
 
- test 
- doTest(["sheep", "wolf", "sheep"],
-		"Oi! Sheep number 1! You are about to be eaten by a wolf!"
-	);
-    doTest(["wolf"],
-		"Pls go away and stop eating my sheep"
+//  test 
+//  doTest(["sheep", "wolf", "sheep"],
+// 		"Oi! Sheep number 1! You are about to be eaten by a wolf!"
+// 	);
+//     doTest(["wolf"],
+// 		"Pls go away and stop eating my sheep"
