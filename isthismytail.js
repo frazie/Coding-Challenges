@@ -30,6 +30,12 @@ function correctTail(body, tail){
       
     
   }
+
+  or 
+
+  let sub = body[body.length - 1]
+
+  return (sub === tail)
     
 
 //   test 
