@@ -23,7 +23,12 @@ function noBoringZeros(n) {
     }
   return n
   }
+or 
 
+function noBoringZeros(n) {
+    while(n%10==0 && n!=0){n/=10;}
+    return n;
+  }
 
 //   test 
 //   noBoringZeros(1450), 145)
