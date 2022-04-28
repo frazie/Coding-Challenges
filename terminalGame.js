@@ -17,6 +17,12 @@ function combat(health, damage) {
 
 function combat(health, damage) {
     return health - damage < 0 ? 0 : health - damage;
+}
+
+  or 
+
+  function combat(health, damage) {
+    return Math.max(health - damage, 0);
   }
 
 // test 
