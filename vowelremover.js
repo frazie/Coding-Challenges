@@ -9,9 +9,17 @@
 
 // solution: this has been completed using Regex which is not encouraged much
 
-function shortcut (string) {
-    let vowels = ['a','e','i','o','u']
+// function shortcut (string) {
+//     let vowels = ['a','e','i','o','u']
     
-    return string.split('').filter(item => !vowels.includes(item)).join('')
+//     return string.split('').filter(item => !vowels.includes(item)).join('')
     
+//   }
+
+
+  function shortcut (string) {
+    return string
+      .split('')
+      .filter(str => !'aeiou'.includes(str))
+      .join('')
   }
