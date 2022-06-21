@@ -1,9 +1,9 @@
-Define a method hello that returns "Hello,Name!" to a given name, or says Hello, World! if name is not given(or passed as an empry string).Define
+// Define a method hello that returns "Hello,Name!" to a given name, or says Hello, World! if name is not given(or passed as an empry string).Define
 
-Assuming that name is a string and it checks for user typose to return a name with a first capital letter (Xxxx)
+// Assuming that name is a string and it checks for user typose to return a name with a first capital letter (Xxxx)
 
 
-solution
+// solution
 
 function hello(name){
     if (name == !null)
