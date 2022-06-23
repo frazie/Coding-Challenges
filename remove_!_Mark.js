@@ -12,13 +12,22 @@
 // solution
 
 function remove(string){
-    if ([string.length-1] == '!'){
+    if (string[string.length-1] == '!'){
         return string.slice(0,-1)
     }else{
         return string
     }
 }
 
+or 
+
+function remove(s){
+    return s = s.replace(/!$/g, '');
+  }
+
+  or
+
+  return s.charAt(s.length - 1) === '!' ? s.slice(0, -1) : s;
 // test 
 // doTest("Hi!", "Hi");
 // doTest("Hi!!!", "Hi!!");
