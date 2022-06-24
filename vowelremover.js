@@ -23,3 +23,15 @@
       .filter(str => !'aeiou'.includes(str))
       .join('')
   }
+
+  // or 
+
+  let shortcut = str => str.replace(/[aeiou]/g, '')  
+  
+  // the above is a regex function
+
+//   test
+//   doTest('hello', 'hll');
+// doTest('how are you today?', 'hw r y tdy?');
+// doTest('complain', 'cmpln');
+// doTest('never', 'nvr');
