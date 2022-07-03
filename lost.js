@@ -13,6 +13,11 @@ function maps(x){
     return solution
   }
 
+  or 
+
+  function maps(x){
+    return x.map(n => n * 2);
+  }
 //   test 
 //   maps([1, 2, 3]), [2, 4, 6]);
 // maps([4, 1, 1, 1, 4]), [8, 2, 2, 2, 8]); 
